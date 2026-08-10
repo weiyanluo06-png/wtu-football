@@ -466,6 +466,50 @@ img {
   line-height: 1.6;
 }
 
+.sister-club {
+  margin-top: 32px;
+  padding: 20px 22px;
+  background: var(--wtu-blue-paler);
+  border: 1px solid var(--wtu-blue-pale);
+  border-radius: var(--radius);
+}
+
+.sister-club-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--wtu-blue);
+  margin-bottom: 14px;
+}
+
+.sister-club-link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-decoration: none;
+  padding: 14px 18px;
+  background: #fff;
+  border-radius: var(--radius);
+  border-left: 4px solid var(--wtu-blue);
+  transition: all var(--transition);
+}
+
+.sister-club-link:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-md);
+  border-left-color: var(--wtu-blue-dark);
+}
+
+.sister-club-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.sister-club-desc {
+  font-size: 0.82rem;
+  color: var(--text-light);
+}
+
 .about-image {
   display: flex;
   justify-content: center;
